@@ -5,9 +5,9 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-0e449927258d45bc4
-      InstanceType: t3.mirco
+      InstanceType: t3.micro
       Tags:
-        - key: Name
+        - Key: Name
           Value: My EC2 Instance
-        - key: Role
+        - Key: Role
           Value: Training
